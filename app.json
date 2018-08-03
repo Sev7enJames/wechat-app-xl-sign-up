@@ -1,12 +1,43 @@
 {
-  "pages":[
+  "pages": [
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/logs/logs",
+    "pages/setting/my/my",
+    "pages/activity/list/list",
+    "pages/activity/edit/edit",
+    "pages/activity/add/add"
   ],
-  "window":{
-    "backgroundTextStyle":"light",
-    "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
-    "navigationBarTextStyle":"black"
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "navigationBarTitleText": "报名啦",
+    "navigationBarTextStyle": "black",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "image/index/icon-1B.png",
+        "selectedIconPath": "image/index/icon-1A.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/activity/list/list",
+        "iconPath": "image/index/icon-3B.png",
+        "selectedIconPath": "image/index/icon-3A.png",
+        "text": "活动"
+      },
+      {
+        "pagePath": "pages/setting/my/my",
+        "iconPath": "image/index/icon-2B.png",
+        "selectedIconPath": "image/index/icon-2A.png",
+        "text": "个人"
+      }
+    ]
   }
 }
